@@ -121,7 +121,7 @@ public class CustomerController {
             @RequestParam("file") MultipartFile file) {
 
         return ResponseBuilder.created(
-                "Customer document uploaded successfully",
+                "KASI Customer document uploaded successfully",
                 customerService.uploadCustomerDocument(
                         id,
                         documentType,
